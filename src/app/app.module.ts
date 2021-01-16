@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SubFieldComponent } from './sub-field/sub-field.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SubFieldComponent
   ],
   imports: [
     BrowserModule
